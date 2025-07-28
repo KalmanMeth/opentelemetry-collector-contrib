@@ -1,4 +1,4 @@
-module github.com/KalmanMeth/opentelemetry-collector-contrib/processor/tailsamplingprocessor
+module github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor
 
 go 1.23.0
 
@@ -25,7 +25,6 @@ require (
 )
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor v0.130.0
 	go.opentelemetry.io/collector/component/componenttest v0.130.0
 	go.opentelemetry.io/collector/consumer/consumertest v0.130.0
 	go.opentelemetry.io/collector/processor/processortest v0.130.0
