@@ -97,6 +97,7 @@ func (*intervalProcessor) Capabilities() consumer.Capabilities {
 func (p *intervalProcessor) ConsumeMetrics(ctx context.Context, md pmetric.Metrics) error {
 	var errs error
 
+	// comment2
 	p.stateLock.Lock()
 	defer p.stateLock.Unlock()
 
