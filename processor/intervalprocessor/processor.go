@@ -97,6 +97,7 @@ func (p *Processor) Capabilities() consumer.Capabilities {
 func (p *Processor) ConsumeMetrics(ctx context.Context, md pmetric.Metrics) error {
 	var errs error
 
+	// comment
 	p.stateLock.Lock()
 	defer p.stateLock.Unlock()
 
