@@ -98,6 +98,7 @@ func (p *Processor) ConsumeMetrics(ctx context.Context, md pmetric.Metrics) erro
 	var errs error
 
 	// comment
+	// comment 3
 	p.stateLock.Lock()
 	defer p.stateLock.Unlock()
 
